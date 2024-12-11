@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+   
+   header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+   }
+   
+   main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   }
+   
+   .destinasi {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+   
+   .destinasi-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   
+   .destinasi-item {
+    margin: 20px;
+    width: calc(33.33% - 20px);
+   }
+   
+   .destinasi-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+   }
+   
+   .destinasi-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+   }
+   
+   .destinasi-item p {
+    font-size: 14px;
+    color: #666;
+   }
+   
+   .btn-pesan {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+   }
+   
+   .btn-pesan:hover {
+    background-color: #555;
+   }
+   
+   @media (max-width: 768px) {
+    .destinasi-item {
+    width: calc(50% - 20px);
+    }
+   }
+   
+   @media (max-width: 480px) {
+    .destinasi-item {
+    width: 100%;
+    }
+   }
